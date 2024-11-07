@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: #fff192;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.left-sidebar,
+.right-sidebar {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-sidebar .row1 {
+  margin: auto;
+  margin-right: -10px;
+  width: 320px;
+  height: 290px;
+  background-color: #fcfaee;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+}
+.logo {
+  color: #658147;
+  margin-top: -20px;
+  display: flex;
+  gap: 10px;
+}
+span {
+  background-color: #597445;
+  width: 170px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 2px;
+}
+
+.tag {
+  margin: 20px;
+  color: #597445;
+  text-align: justify;
+}
+
+.gambar {
+  width: 290px;
+  height: 100px;
+  border-radius: 30px;
+  background: url(images/duck2.jpg) -180px -140px;
+}
+
+.left-sidebar .row {
+  margin: auto;
+  margin-right: -10px;
+  width: 320px;
+  height: 370px;
+  padding: 15px;
+  background-color: #fcfaee;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50px;
+}
+
+.headline h1 {
+  color: #597445;
+}
+.teks {
+  text-align: justify;
+  color: #658147;
+}
+
+.boxDalam {
+  margin: auto;
+  width: 280px;
+  height: 200px;
+  background: #b5c18e;
+  margin-top: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxDalam h2 {
+  font-size: large;
+  color: black;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxDalam img {
+  width: 170px;
+  margin-left: 50px;
+  opacity: 80%;
+}
+
+.right-sidebar .row {
+  margin: auto;
+  margin-left: -10px;
+  width: 320px;
+  height: 670px;
+  padding: 15px;
+  background-color: #fcfaee;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50px;
+}
+
+.headline2 {
+  color: #658147;
+  padding-top: 20px;
+}
+
+.gambar2 {
+  display: flex;
+  margin-top: 10px;
+  background-color: #b5c18e;
+  border-radius: 20px;
+}
+
+.isi1 {
+  color: #40592e;
+  padding: 20px;
+}
+
+.isi1 h2 {
+  font-size: medium;
+}
+
+.isi1 p {
+  text-align: justify;
+}
+.gambar2 img {
+  width: 120px;
+  opacity: 70%;
+}
+.gambar2 {
+  margin-top: 20px;
+}
+
+.gambar3 {
+  width: 290px;
+  height: 280px;
+  border-radius: 30px;
+  margin-top: 20px;
+  background: url(images/duck2.jpg) -100px -100px;
+}
+
+.bar {
+  display: flex;
+  margin: auto;
+}
+
+.isi {
+  color: #40592e;
+  content: "";
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  border: 5px solid #40592e;
+  z-index: 2;
+}
+
+.dalemIsi {
+  background-color: #597445;
+  width: 160px;
+  border-radius: 20px;
+  height: 22px;
+}
+.persen {
+  margin-top: 5px;
+  margin-left: 10px;
+  color: #40592e;
+  font-weight: bold;
+}
+.card {
+  position: relative;
+  width: 800px;
+  height: 690px;
+  background: var(--clr);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.box {
+  position: absolute;
+  inset: 10px;
+  background: url(images/duck1.jpg) -190px -100px;
+  border-radius: 60px;
+  border-top-left-radius: 100px;
+}
+
+.icon {
+  position: absolute;
+  width: 350px;
+  height: 80px;
+  background: var(--clr);
+  border-bottom-right-radius: 40px;
+}
+
+.icon::before {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border-top-left-radius: 30px;
+  box-shadow: -5px -5px 0px 5px var(--clr);
+}
+
+.icon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -78px;
+  width: 80px;
+  height: 70px;
+  background-color: transparent;
+  border-top-left-radius: 50px;
+  box-shadow: -5px -25px 0px 5px var(--clr);
+}
+
+.iconBox {
+  position: absolute;
+  inset: 0px 15px 15px 0px;
+  background: #fcfaee;
+  border-radius: 100px;
+}
+
+.iconBox ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.iconBox ul li {
+  color: #597445;
+  margin-top: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.iconBox ul li:hover {
+  color: #ac8400;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.iconBox img {
+  width: 45px;
+  margin-top: 10px;
+}
