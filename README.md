@@ -1,7 +1,7 @@
 
 # Web Design Course Final Project - Bento Layout
 
-This project is a modern landing page with a bento layout, designed to provide an interactive and responsive user experience. Using HTML, CSS, and JavaScript, the page utilizes a grid layout to display content in neat, dynamic, and structured blocks.
+This project is a modern landing page with a bento layout, designed to provide an interactive and responsive user experience. Using HTML, CSS, and JavaScript, the page utilizes a grid layout to display content in neat, dynamic, and structured blocks
 ## Authors
 
 - [@adityadwin](https://www.github.com/adityadwin)
